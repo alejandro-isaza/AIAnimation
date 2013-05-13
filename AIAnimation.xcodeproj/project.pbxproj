@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A901EB971740379B002A5756 /* libAIAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F42617027522002287E2 /* libAIAnimation.a */; };
 		A917F406170274FA002287E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F405170274FA002287E2 /* UIKit.framework */; };
 		A917F408170274FA002287E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F407170274FA002287E2 /* Foundation.framework */; };
 		A917F40A170274FA002287E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F409170274FA002287E2 /* CoreGraphics.framework */; };
@@ -16,22 +17,79 @@
 		A917F418170274FA002287E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A917F417170274FA002287E2 /* Default.png */; };
 		A917F41A170274FA002287E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A917F419170274FA002287E2 /* Default@2x.png */; };
 		A917F41C170274FA002287E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A917F41B170274FA002287E2 /* Default-568h@2x.png */; };
+		A917F42717027522002287E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F407170274FA002287E2 /* Foundation.framework */; };
+		A917F42C17027522002287E2 /* AIAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A917F42B17027522002287E2 /* AIAnimation.h */; };
+		A917F42E17027522002287E2 /* AIAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A917F42D17027522002287E2 /* AIAnimation.m */; };
+		A917F43617027522002287E2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F43517027522002287E2 /* SenTestingKit.framework */; };
+		A917F43717027522002287E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F405170274FA002287E2 /* UIKit.framework */; };
+		A917F43817027522002287E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F407170274FA002287E2 /* Foundation.framework */; };
+		A917F43B17027522002287E2 /* libAIAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F42617027522002287E2 /* libAIAnimation.a */; };
+		A917F44117027522002287E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A917F43F17027522002287E2 /* InfoPlist.strings */; };
+		A917F44417027522002287E2 /* AIAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A917F44317027522002287E2 /* AIAnimationTests.m */; };
+		A917F44D170275B2002287E2 /* AIAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = A917F44C170275B2002287E2 /* AIAnimationSequence.m */; };
+		A917F45317027B43002287E2 /* AIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A917F45117027B43002287E2 /* AIViewController.m */; };
+		A917F45417027B43002287E2 /* AIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A917F45217027B43002287E2 /* AIViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A917F43917027522002287E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A917F3FA170274FA002287E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A917F42517027522002287E2;
+			remoteInfo = AIAnimation;
+		};
+		A917F44E17027A3A002287E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A917F3FA170274FA002287E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A917F42517027522002287E2;
+			remoteInfo = AIAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A917F42417027522002287E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A917F42C17027522002287E2 /* AIAnimation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A917F402170274FA002287E2 /* AIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A917F402170274FA002287E2 /* AIAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A917F405170274FA002287E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A917F407170274FA002287E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A917F409170274FA002287E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A917F40D170274FA002287E2 /* AIAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAnimation-Info.plist"; sourceTree = "<group>"; };
+		A917F40D170274FA002287E2 /* AIAnimationExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAnimationExample-Info.plist"; sourceTree = "<group>"; };
 		A917F40F170274FA002287E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A917F411170274FA002287E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A917F413170274FA002287E2 /* AIAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A917F413170274FA002287E2 /* AIAnimationExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIAnimationExample-Prefix.pch"; sourceTree = "<group>"; };
 		A917F414170274FA002287E2 /* AIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAppDelegate.h; sourceTree = "<group>"; };
 		A917F415170274FA002287E2 /* AIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAppDelegate.m; sourceTree = "<group>"; };
 		A917F417170274FA002287E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A917F419170274FA002287E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A917F41B170274FA002287E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A917F42617027522002287E2 /* libAIAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAIAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A917F42A17027522002287E2 /* AIAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A917F42B17027522002287E2 /* AIAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAnimation.h; sourceTree = "<group>"; };
+		A917F42D17027522002287E2 /* AIAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAnimation.m; sourceTree = "<group>"; };
+		A917F43417027522002287E2 /* AIAnimationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIAnimationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A917F43517027522002287E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A917F43E17027522002287E2 /* AIAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		A917F44017027522002287E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A917F44217027522002287E2 /* AIAnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAnimationTests.h; sourceTree = "<group>"; };
+		A917F44317027522002287E2 /* AIAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAnimationTests.m; sourceTree = "<group>"; };
+		A917F44B170275B2002287E2 /* AIAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIAnimationSequence.h; sourceTree = "<group>"; };
+		A917F44C170275B2002287E2 /* AIAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIAnimationSequence.m; sourceTree = "<group>"; };
+		A917F45017027B43002287E2 /* AIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIViewController.h; sourceTree = "<group>"; };
+		A917F45117027B43002287E2 /* AIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIViewController.m; sourceTree = "<group>"; };
+		A917F45217027B43002287E2 /* AIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +97,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A901EB971740379B002A5756 /* libAIAnimation.a in Frameworks */,
 				A917F406170274FA002287E2 /* UIKit.framework in Frameworks */,
 				A917F408170274FA002287E2 /* Foundation.framework in Frameworks */,
 				A917F40A170274FA002287E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917F42317027522002287E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917F42717027522002287E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917F43017027522002287E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917F43617027522002287E2 /* SenTestingKit.framework in Frameworks */,
+				A917F43717027522002287E2 /* UIKit.framework in Frameworks */,
+				A917F43817027522002287E2 /* Foundation.framework in Frameworks */,
+				A917F43B17027522002287E2 /* libAIAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +129,9 @@
 		A917F3F9170274FA002287E2 = {
 			isa = PBXGroup;
 			children = (
-				A917F40B170274FA002287E2 /* AIAnimation */,
+				A917F42817027522002287E2 /* AIAnimation */,
+				A917F40B170274FA002287E2 /* AIAnimationExample */,
+				A917F43C17027522002287E2 /* AIAnimationTests */,
 				A917F404170274FA002287E2 /* Frameworks */,
 				A917F403170274FA002287E2 /* Products */,
 			);
@@ -60,7 +140,9 @@
 		A917F403170274FA002287E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A917F402170274FA002287E2 /* AIAnimation.app */,
+				A917F402170274FA002287E2 /* AIAnimationExample.app */,
+				A917F42617027522002287E2 /* libAIAnimation.a */,
+				A917F43417027522002287E2 /* AIAnimationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,27 +153,31 @@
 				A917F405170274FA002287E2 /* UIKit.framework */,
 				A917F407170274FA002287E2 /* Foundation.framework */,
 				A917F409170274FA002287E2 /* CoreGraphics.framework */,
+				A917F43517027522002287E2 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A917F40B170274FA002287E2 /* AIAnimation */ = {
+		A917F40B170274FA002287E2 /* AIAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
 				A917F414170274FA002287E2 /* AIAppDelegate.h */,
 				A917F415170274FA002287E2 /* AIAppDelegate.m */,
+				A917F45017027B43002287E2 /* AIViewController.h */,
+				A917F45117027B43002287E2 /* AIViewController.m */,
+				A917F45217027B43002287E2 /* AIViewController.xib */,
 				A917F40C170274FA002287E2 /* Supporting Files */,
 			);
-			path = AIAnimation;
+			path = AIAnimationExample;
 			sourceTree = "<group>";
 		};
 		A917F40C170274FA002287E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A917F40D170274FA002287E2 /* AIAnimation-Info.plist */,
+				A917F40D170274FA002287E2 /* AIAnimationExample-Info.plist */,
 				A917F40E170274FA002287E2 /* InfoPlist.strings */,
 				A917F411170274FA002287E2 /* main.m */,
-				A917F413170274FA002287E2 /* AIAnimation-Prefix.pch */,
+				A917F413170274FA002287E2 /* AIAnimationExample-Prefix.pch */,
 				A917F417170274FA002287E2 /* Default.png */,
 				A917F419170274FA002287E2 /* Default@2x.png */,
 				A917F41B170274FA002287E2 /* Default-568h@2x.png */,
@@ -99,12 +185,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A917F42817027522002287E2 /* AIAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A917F42B17027522002287E2 /* AIAnimation.h */,
+				A917F42D17027522002287E2 /* AIAnimation.m */,
+				A917F44B170275B2002287E2 /* AIAnimationSequence.h */,
+				A917F44C170275B2002287E2 /* AIAnimationSequence.m */,
+				A917F42917027522002287E2 /* Supporting Files */,
+			);
+			path = AIAnimation;
+			sourceTree = "<group>";
+		};
+		A917F42917027522002287E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A917F42A17027522002287E2 /* AIAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A917F43C17027522002287E2 /* AIAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A917F44217027522002287E2 /* AIAnimationTests.h */,
+				A917F44317027522002287E2 /* AIAnimationTests.m */,
+				A917F43D17027522002287E2 /* Supporting Files */,
+			);
+			path = AIAnimationTests;
+			sourceTree = "<group>";
+		};
+		A917F43D17027522002287E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A917F43E17027522002287E2 /* AIAnimationTests-Info.plist */,
+				A917F43F17027522002287E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A917F401170274FA002287E2 /* AIAnimation */ = {
+		A917F401170274FA002287E2 /* AIAnimationExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A917F41F170274FA002287E2 /* Build configuration list for PBXNativeTarget "AIAnimation" */;
+			buildConfigurationList = A917F41F170274FA002287E2 /* Build configuration list for PBXNativeTarget "AIAnimationExample" */;
 			buildPhases = (
 				A917F3FE170274FA002287E2 /* Sources */,
 				A917F3FF170274FA002287E2 /* Frameworks */,
@@ -113,11 +238,48 @@
 			buildRules = (
 			);
 			dependencies = (
+				A917F44F17027A3A002287E2 /* PBXTargetDependency */,
+			);
+			name = AIAnimationExample;
+			productName = AIAnimation;
+			productReference = A917F402170274FA002287E2 /* AIAnimationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A917F42517027522002287E2 /* AIAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A917F44517027522002287E2 /* Build configuration list for PBXNativeTarget "AIAnimation" */;
+			buildPhases = (
+				A917F42217027522002287E2 /* Sources */,
+				A917F42317027522002287E2 /* Frameworks */,
+				A917F42417027522002287E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
 			);
 			name = AIAnimation;
 			productName = AIAnimation;
-			productReference = A917F402170274FA002287E2 /* AIAnimation.app */;
-			productType = "com.apple.product-type.application";
+			productReference = A917F42617027522002287E2 /* libAIAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A917F43317027522002287E2 /* AIAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A917F44817027522002287E2 /* Build configuration list for PBXNativeTarget "AIAnimationTests" */;
+			buildPhases = (
+				A917F42F17027522002287E2 /* Sources */,
+				A917F43017027522002287E2 /* Frameworks */,
+				A917F43117027522002287E2 /* Resources */,
+				A917F43217027522002287E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A917F43A17027522002287E2 /* PBXTargetDependency */,
+			);
+			name = AIAnimationTests;
+			productName = AIAnimationTests;
+			productReference = A917F43417027522002287E2 /* AIAnimationTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -141,7 +303,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A917F401170274FA002287E2 /* AIAnimation */,
+				A917F401170274FA002287E2 /* AIAnimationExample */,
+				A917F42517027522002287E2 /* AIAnimation */,
+				A917F43317027522002287E2 /* AIAnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -155,10 +319,35 @@
 				A917F418170274FA002287E2 /* Default.png in Resources */,
 				A917F41A170274FA002287E2 /* Default@2x.png in Resources */,
 				A917F41C170274FA002287E2 /* Default-568h@2x.png in Resources */,
+				A917F45417027B43002287E2 /* AIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917F43117027522002287E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917F44117027522002287E2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A917F43217027522002287E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A917F3FE170274FA002287E2 /* Sources */ = {
@@ -167,16 +356,55 @@
 			files = (
 				A917F412170274FA002287E2 /* main.m in Sources */,
 				A917F416170274FA002287E2 /* AIAppDelegate.m in Sources */,
+				A917F45317027B43002287E2 /* AIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917F42217027522002287E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917F42E17027522002287E2 /* AIAnimation.m in Sources */,
+				A917F44D170275B2002287E2 /* AIAnimationSequence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A917F42F17027522002287E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A917F44417027522002287E2 /* AIAnimationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A917F43A17027522002287E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A917F42517027522002287E2 /* AIAnimation */;
+			targetProxy = A917F43917027522002287E2 /* PBXContainerItemProxy */;
+		};
+		A917F44F17027A3A002287E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A917F42517027522002287E2 /* AIAnimation */;
+			targetProxy = A917F44E17027A3A002287E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A917F40E170274FA002287E2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A917F40F170274FA002287E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A917F43F17027522002287E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A917F44017027522002287E2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -244,8 +472,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
-				INFOPLIST_FILE = "AIAnimation/AIAnimation-Info.plist";
+				GCC_PREFIX_HEADER = "AIAnimationExample/AIAnimationExample-Prefix.pch";
+				INFOPLIST_FILE = "AIAnimationExample/AIAnimationExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,10 +483,64 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
-				INFOPLIST_FILE = "AIAnimation/AIAnimation-Info.plist";
+				GCC_PREFIX_HEADER = "AIAnimationExample/AIAnimationExample-Prefix.pch";
+				INFOPLIST_FILE = "AIAnimationExample/AIAnimationExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A917F44617027522002287E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AIAnimation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A917F44717027522002287E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AIAnimation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A917F44917027522002287E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
+				INFOPLIST_FILE = "AIAnimationTests/AIAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A917F44A17027522002287E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AIAnimation/AIAnimation-Prefix.pch";
+				INFOPLIST_FILE = "AIAnimationTests/AIAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -274,13 +556,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A917F41F170274FA002287E2 /* Build configuration list for PBXNativeTarget "AIAnimation" */ = {
+		A917F41F170274FA002287E2 /* Build configuration list for PBXNativeTarget "AIAnimationExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A917F420170274FA002287E2 /* Debug */,
 				A917F421170274FA002287E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A917F44517027522002287E2 /* Build configuration list for PBXNativeTarget "AIAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A917F44617027522002287E2 /* Debug */,
+				A917F44717027522002287E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A917F44817027522002287E2 /* Build configuration list for PBXNativeTarget "AIAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A917F44917027522002287E2 /* Debug */,
+				A917F44A17027522002287E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
