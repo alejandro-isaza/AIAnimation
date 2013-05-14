@@ -27,25 +27,21 @@
     CGSize containerSize = _animationContainerView.bounds.size;
     CGSize blockSize = _animatingView.bounds.size;
     
-    AIAnimation* animation1 = [[AIAnimation alloc] init];
-    animation1.animationBlock = ^() {
+    AIAnimation* animation1 = [AIAnimation animationWithDuration:0.25 block:^() {
         wself.animatingView.center = CGPointMake(blockSize.width/2, containerSize.height - blockSize.height/2);
-    };
+    }];
     
-    AIAnimation* animation2 = [[AIAnimation alloc] init];
-    animation2.animationBlock = ^() {
+    AIAnimation* animation2 = [AIAnimation animationWithDuration:0.25 block:^() {
         wself.animatingView.center = CGPointMake(containerSize.width - blockSize.width/2, containerSize.height - blockSize.height/2);
-    };
+    }];
     
-    AIAnimation* animation3 = [[AIAnimation alloc] init];
-    animation3.animationBlock = ^() {
+    AIAnimation* animation3 = [AIAnimation animationWithDuration:0.25 block:^() {
         wself.animatingView.center = CGPointMake(containerSize.width - blockSize.width/2, blockSize.height/2);
-    };
+    }];
     
-    AIAnimation* animation4 = [[AIAnimation alloc] init];
-    animation4.animationBlock = ^() {
+    AIAnimation* animation4 = [AIAnimation animationWithDuration:0.25 block:^() {
         wself.animatingView.center = CGPointMake(blockSize.width/2, blockSize.height/2);
-    };
+    }];
     
     _animationSequence = [AIAnimationSequence animationSequenceWithAnimations:@[ animation1, animation2, animation3, animation4 ]];
     _animationSequence.completionBlock = ^(BOOL finished) {
