@@ -83,7 +83,6 @@
 		A917F43517027522002287E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A917F43E17027522002287E2 /* AIAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AIAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		A917F44017027522002287E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A917F44217027522002287E2 /* AIAnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAnimationTests.h; sourceTree = "<group>"; };
 		A917F44317027522002287E2 /* AIAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAnimationTests.m; sourceTree = "<group>"; };
 		A917F44B170275B2002287E2 /* AIAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIAnimationSequence.h; sourceTree = "<group>"; };
 		A917F44C170275B2002287E2 /* AIAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIAnimationSequence.m; sourceTree = "<group>"; };
@@ -208,7 +207,6 @@
 		A917F43C17027522002287E2 /* AIAnimationTests */ = {
 			isa = PBXGroup;
 			children = (
-				A917F44217027522002287E2 /* AIAnimationTests.h */,
 				A917F44317027522002287E2 /* AIAnimationTests.m */,
 				A917F43D17027522002287E2 /* Supporting Files */,
 			);

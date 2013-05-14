@@ -21,6 +21,12 @@
     return anim;
 }
 
+- (id)init {
+    self = [super init];
+    self.easeIn = YES;
+    self.easeOut = YES;
+    return self;
+}
 - (void)run {
     if (_setupBlock)
         _setupBlock();
