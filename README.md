@@ -1,6 +1,8 @@
 AIAnimation
 ===========
 
+[![Build Status](https://travis-ci.org/aleph7/AIAnimation.png)](https://travis-ci.org/aleph7/AIAnimation)
+
 AIAnimation makes working with UIKit animations simpler by making animations [first-class citizens](http://en.wikipedia.org/wiki/First-class_citizen). You can pass animations as arguments, return them from methods and easily chain animations together. 
 
 
