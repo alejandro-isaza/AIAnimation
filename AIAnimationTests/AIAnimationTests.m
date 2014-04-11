@@ -2,10 +2,10 @@
 //  Copyright (c) 2013 Alejandro Isaza. All rights reserved.
 
 #import "AIAnimation.h"
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 
-@interface AIAnimationTests : SenTestCase
+@interface AIAnimationTests : XCTestCase
 @end
 
 
@@ -13,12 +13,12 @@
 
 - (void)testCreateAnimation {
     AIAnimation* anim = [AIAnimation animationWithDuration:0.25 block:^() {}];
-    STAssertEquals(anim.duration, 0.25, nil);
-    STAssertEquals(anim.delay, 0., nil);
-    STAssertTrue(anim.easeIn, nil);
-    STAssertTrue(anim.easeOut, nil);
-    STAssertFalse(anim.beginFromCurrentState, nil);
-    STAssertFalse(anim.repeat, nil);
+    XCTAssertEqual(anim.duration, 0.25);
+    XCTAssertEqual(anim.delay, 0.);
+    XCTAssertTrue(anim.easeIn);
+    XCTAssertTrue(anim.easeOut);
+    XCTAssertFalse(anim.beginFromCurrentState);
+    XCTAssertFalse(anim.repeat);
 }
 
 - (void)testCopyAnimation {
@@ -27,12 +27,12 @@
     anim.repeat = YES;
     
     AIAnimation* copy = [anim copy];
-    STAssertEquals(anim.duration, copy.duration, nil);
-    STAssertEquals(anim.delay, copy.delay, nil);
-    STAssertEquals(anim.easeIn, copy.easeIn, nil);
-    STAssertEquals(anim.easeOut, copy.easeOut, nil);
-    STAssertEquals(anim.beginFromCurrentState, copy.beginFromCurrentState, nil);
-    STAssertEquals(anim.repeat, copy.repeat, nil);
+    XCTAssertEqual(anim.duration, copy.duration);
+    XCTAssertEqual(anim.delay, copy.delay);
+    XCTAssertEqual(anim.easeIn, copy.easeIn);
+    XCTAssertEqual(anim.easeOut, copy.easeOut);
+    XCTAssertEqual(anim.beginFromCurrentState, copy.beginFromCurrentState);
+    XCTAssertEqual(anim.repeat, copy.repeat);
 }
 
 @end
