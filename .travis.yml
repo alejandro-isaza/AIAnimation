@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: AIAnimation.xcodeproj
-xcode_scheme: AIAnimation
+xcode_scheme: AIAnimationExample
 xcode_sdk: iphonesimulator6.1
