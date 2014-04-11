@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A901EB971740379B002A5756 /* libAIAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F42617027522002287E2 /* libAIAnimation.a */; };
 		A907DB7218F7ADFD00B2BF7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A907DB7118F7ADFD00B2BF7F /* Images.xcassets */; };
+		A907DB7C18F7D11100B2BF7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A907DB7B18F7D11100B2BF7F /* XCTest.framework */; };
 		A917F406170274FA002287E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F405170274FA002287E2 /* UIKit.framework */; };
 		A917F408170274FA002287E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F407170274FA002287E2 /* Foundation.framework */; };
 		A917F40A170274FA002287E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A917F409170274FA002287E2 /* CoreGraphics.framework */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		A907DB7118F7ADFD00B2BF7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A907DB7B18F7D11100B2BF7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A917F402170274FA002287E2 /* AIAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A917F405170274FA002287E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A917F407170274FA002287E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A907DB7C18F7D11100B2BF7F /* XCTest.framework in Frameworks */,
 				A917F43717027522002287E2 /* UIKit.framework in Frameworks */,
 				A917F43817027522002287E2 /* Foundation.framework in Frameworks */,
 				A917F43B17027522002287E2 /* libAIAnimation.a in Frameworks */,
@@ -142,6 +145,7 @@
 		A917F404170274FA002287E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A907DB7B18F7D11100B2BF7F /* XCTest.framework */,
 				A917F405170274FA002287E2 /* UIKit.framework */,
 				A917F407170274FA002287E2 /* Foundation.framework */,
 				A917F409170274FA002287E2 /* CoreGraphics.framework */,
