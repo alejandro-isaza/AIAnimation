@@ -1,4 +1,4 @@
 language: objective-c
-xcode_project: AIAnimation.xcodeproj
-xcode_scheme: AIAnimationExample
-xcode_sdk: iphonesimulator6.1
+before_install:
+  - gem install xcpretty
+script: xcodebuild -scheme AIAnimation -sdk iphonesimulator test | xcpretty -cs; test ${PIPESTATUS[0]} -eq 0
